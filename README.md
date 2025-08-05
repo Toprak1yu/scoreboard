@@ -4,13 +4,13 @@ A simple basketball scoreboard app to keep track of game scores.
 
 ## Files
 
-- `app.html` - Main HTML file
-- `app.css` - Styles for the scoreboard
-- `app.js` - JavaScript functions to update scores
+- `scoreboard.html` - Main HTML file
+- `scoreboard.css` - Styles for the scoreboard
+- `scoreboard.js` - JavaScript functions to update scores
 
 ## How to Use
 
-1. Open `app.html` in VS Code
+1. Open `scoreboard.html` in VS Code
 2. Right-click and select "Open with Live Server"
 3. Click the buttons to add points:
    - +1, +2, +3 buttons for HOME team
