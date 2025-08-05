@@ -1,0 +1,80 @@
+/* Basic body styles */
+body {
+    margin: 0;
+    background-color: #1B244A;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #FFFFFF;
+    font-size: 30px;
+}
+
+/* Button styles */
+button {
+    font-family: 'Cursed Timer ULiL',sans-serif; 
+    width: 50px;
+    height: 50px;
+    padding-top: 8px;
+    background-color: inherit;
+    color: #9AABD8;
+    border: 1px solid #9AABD8;
+    border-radius: 5px;
+}
+
+/* Main container layout */
+.container {
+    display: flex;
+    justify-content: space-around;
+}
+
+/* Home team styles */
+.home-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Home team score display */
+#home-score {
+    text-decoration: underline;
+    font-family: 'Cursed Timer ULiL',sans-serif;                            
+    font-size: 90px;        
+    line-height: 126.7px;
+    color: #F94F6D;
+    background: #080001;
+    padding: 15px 30px;
+    border-radius: 15px;
+}
+
+/* Home team buttons container */
+#button-home {
+    display: flex;
+    justify-content: space-around;
+    width: 200px;
+    margin-top: 30px;
+}
+
+/* Guest team styles */
+.guest-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Guest team score display */
+#guest-score {
+    text-decoration: underline;
+    font-family: 'Cursed Timer ULiL',sans-serif;                            
+    font-size: 90px;        
+    line-height: 126.7px;
+    color: #F94F6D;
+    background: #080001;
+    padding: 15px 30px;
+    border-radius: 15px;
+}
+
+/* Guest team buttons container */
+#button-guest {
+    display: flex;
+    justify-content: space-around;
+    width: 200px;
+    margin-top: 30px;
+}

@@ -1,0 +1,35 @@
+<html>
+    <head>
+        <!-- Link to CSS styles -->
+        <link rel="stylesheet" href="scoreboard.css">
+        <!-- Import custom font for scoreboard -->
+        <link href="https://fonts.cdnfonts.com/css/cursed-timer-ulil" rel="stylesheet">
+    </head>
+    <body>
+        <!-- Main container for both teams -->
+        <div class="container">
+            <!-- Home team section -->
+            <div class="home-container">
+                <h3>HOME</h3>
+                <span id="home-score">0</span>
+                <div id="button-home">  
+                    <button onclick="add1_home()">+1</button>
+                    <button onclick="add2_home()">+2</button>
+                    <button onclick="add3_home()">+3</button>
+                </div>
+            </div>
+            <!-- Guest team section -->
+            <div class="guest-container">
+                <h3>GUEST</h3>
+                <span id="guest-score">0</span>
+                <div id="button-guest"> 
+                    <button onclick="add1_guest()">+1</button>
+                    <button onclick="add2_guest()">+2</button>
+                    <button onclick="add3_guest()">+3</button>
+                </div>
+            </div>
+        </div>
+        <!-- JavaScript file for functionality -->
+        <script src="scoreboard.js"></script>
+    </body>
+</html>
