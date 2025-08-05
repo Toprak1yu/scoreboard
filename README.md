@@ -1,4 +1,4 @@
-# Basketball Scoreboard
+# 🏀 Basketball Scoreboard
 
 A simple basketball scoreboard app to keep track of game scores.
 
